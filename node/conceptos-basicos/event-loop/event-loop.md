@@ -13,4 +13,4 @@ Proceso en bucle que gestiona de forma asíncrona todos los eventos de nuestra a
 
 Se encarga de gestionar los eventos de forma asíncrona. Una vez terminado lo devuelve al Event Loop.
 
-Lo que hace es levantar un hilo nuevo que se encargara de que el proceso se ejecute, una vez termine de ejecutarse el Thread Pool dispara un evento y se devuelve a el Event Loop y si es necesario a el Event Queu
+Lo que hace es levantar un hilo nuevo que se encargara de que el proceso se ejecute, una vez termine de ejecutarse el Thread Pool dispara un evento y se devuelve a el Event Loop y si es necesario a el Event Queue.

@@ -1,3 +1,5 @@
+PS C:\Users\cesvh\dev\js\github\js\node\conceptos-basicos\pm2>
+PS C:\Users\cesvh\dev\js\github\js\node\conceptos-basicos\pm2>
 PS C:\Users\cesvh\dev\js\github\js\node\conceptos-basicos\pm2> ls
 
     Directory: C:\Users\cesvh\dev\js\github\js\node\conceptos-basicos\pm2
@@ -6,6 +8,7 @@ Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 -a---       20/01/2024 12:25 a. m.             24 index.js
 
+PS C:\Users\cesvh\dev\js\github\js\node\conceptos-basicos\pm2>
 PS C:\Users\cesvh\dev\js\github\js\node\conceptos-basicos\pm2>
 PS C:\Users\cesvh\dev\js\github\js\node\conceptos-basicos\pm2> npm install pm2 -g
 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.

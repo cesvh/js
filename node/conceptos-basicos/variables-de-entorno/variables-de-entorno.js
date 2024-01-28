@@ -1,2 +1,5 @@
 require('dotenv').config();
-console.log(process.env.NAME);
+
+let user_name = process.env.NAME;
+
+console.log(`My username is: ${user_name}`);
