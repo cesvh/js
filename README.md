@@ -28,7 +28,8 @@ Node
         - [Código](./node/asincronia/callback-hell/callback_hell.js) - [Terminal](./node/asincronia/callback-hell/callback_hell.bash)
     - [Solucionar callback hell]()
         - [Código](./node/asincronia/callback-hell/solucionar_callback_hell.js) - [Terminal](./node/asincronia/callback-hell/solucionar_callback_hell.bash)
-    <!-- - [Promesas]() -->
+    - [Promesas](./node/asincronia/promesas/promesas.md)
+        - [Código](./node/asincronia/promesas/promesas.js) - [Terminal](./node/asincronia/promesas/promesas.bash)
     <!-- - [Async Await]() -->
 - Módulos del Core
     <!-- - [Global]() -->
