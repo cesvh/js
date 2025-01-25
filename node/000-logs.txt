@@ -1,0 +1,18 @@
+
+/*
+
+módulos: exports-require
+módulos: module-exports-require
+módulos: prebuilt-modules os
+módulos: prebuilt-module fs readFileSync
+módulos: prebuilt-module fs writeFileSync
+módulos: prebuilt-module fs readFile
+módulos: http PENDIENTE
+módulos: http request PENDIENTE
+
+npm: npm install
+npm: npm init
+
+express: npm install express --save # --save versiones antiguos de node que lo agregaba a dependencies
+
+*/
