@@ -4,8 +4,8 @@ const user = {
 };
 
 const books = [
-    'El problema de los 3 cuerpos', 
-    'El Bosque Obscuro', 
+    'El problema de los 3 cuerpos',
+    'El Bosque Obscuro',
     'El fin de la muerte'
 ];
 
@@ -25,14 +25,14 @@ module.exports.addition = addition;
 
 /*
 
-PS C:\Users\cesvh\dev\github\js> 
-PS C:\Users\cesvh\dev\github\js> node .\node\003-commonjs-modules\003-module-exports-obj-require\my-modules\datas.js
+PS C:\Users\cesvh\dev\github\js>
+PS C:\Users\cesvh\dev\github\js> node .\node\003-commonjs-modules\002-module-exports-obj-require\my-modules\datas.js
 --------------------------------------exports
 {}
 --------------------------------------module
 {
   id: '.',
-  path: 'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\003-module-exports-obj-require\\my-modules',
+  path: 'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\002-module-exports-obj-require\\my-modules',
   exports: {
     user: { name: 'cesar', user: 'cesvh' },
     books: [
@@ -42,12 +42,12 @@ PS C:\Users\cesvh\dev\github\js> node .\node\003-commonjs-modules\003-module-exp
     ],
     addition: [Function: addition]
   },
-  filename: 'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\003-module-exports-obj-require\\my-modules\\datas.js',
+  filename: 'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\002-module-exports-obj-require\\my-modules\\datas.js',
   loaded: false,
   children: [],
   paths: [
-    'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\003-module-exports-obj-require\\my-modules\\node_modules',
-    'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\003-module-exports-obj-require\\node_modules',
+    'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\002-module-exports-obj-require\\my-modules\\node_modules',
+    'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\002-module-exports-obj-require\\node_modules',
     'C:\\Users\\cesvh\\dev\\github\\js\\node\\003-commonjs-modules\\node_modules',
     'C:\\Users\\cesvh\\dev\\github\\js\\node\\node_modules',
     'C:\\Users\\cesvh\\dev\\github\\js\\node_modules',
@@ -68,7 +68,7 @@ PS C:\Users\cesvh\dev\github\js> node .\node\003-commonjs-modules\003-module-exp
   ],
   addition: [Function: addition]
 }
-PS C:\Users\cesvh\dev\github\js> 
-PS C:\Users\cesvh\dev\github\js> 
+PS C:\Users\cesvh\dev\github\js>
+PS C:\Users\cesvh\dev\github\js>
 
 */
