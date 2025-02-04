@@ -1,6 +1,7 @@
 const { readFile } = require('fs');
 
 const getText = (pathFile) => {
+    // Mejora de asíncronismo (Evitar problemas de callbacks)
     return new Promise((resolve, reject) => {
         readFile(pathFile, 'utf-8', (err, data) => {
             if (err){
