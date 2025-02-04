@@ -18,3 +18,22 @@ const readText = async () => {
 };
 
 readText();
+
+/*
+
+PS C:\Users\cesvh\dev\github\js\node\007-promises\003-promisify>
+PS C:\Users\cesvh\dev\github\js\node\007-promises\003-promisify>
+PS C:\Users\cesvh\dev\github\js\node\007-promises\003-promisify> node .\index.js
+Cixin Liu
+Isaac Asimov
+
+El problema de los 3 cuerpos
+El bosque oscuro
+
+sci-fi
+cyberpunk
+
+PS C:\Users\cesvh\dev\github\js\node\007-promises\003-promisify>
+PS C:\Users\cesvh\dev\github\js\node\007-promises\003-promisify>
+
+*/
