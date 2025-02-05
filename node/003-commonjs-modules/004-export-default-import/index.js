@@ -1,10 +1,10 @@
 import datas, { addition } from './myModules/myModules.js'; // Exportar módulos con ES6
 
-console.log("--------------------------------------user");
+// console.log("--------------------------------------user");
 console.log(datas);
-console.log("--------------------------------------datas.books[0]");
+// console.log("--------------------------------------datas.books[0]");
 console.log(datas.books[0]);
-console.log("--------------------------------------addition");
+// console.log("--------------------------------------addition");
 console.log(addition(5, 5));
 
 /*
