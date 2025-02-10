@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 app.get('/index.js', (req, res) => {
     res.send(`No soy el archivo index.js, soy el método get de la ruta /index.js`);
 });
-// Configuración necesaria para hacer eso de los archivos estáticos
+// Configuración necesaria para hacer eso de los archivos estáticos: url, server path
 app.use('/public', express.static(path.join(__dirname, 'src', 'public')));
 // GET http://localhost:3000/public/ 404 (Not Found)
 // GET /public/ 404
