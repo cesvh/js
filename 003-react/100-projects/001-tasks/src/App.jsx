@@ -1,33 +1,45 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { tasks as myDatas } from './datas/tasks';
+import { useEffect } from 'react';
+console.log(myDatas);
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+    // Al no inicializar: Uncaught TypeError: myTasks is undefined
+    const [myTasks, setMyTasksList] = useState([]);
+    useEffect(() => {
+        console.log("useEffect - []");
+        setMyTasksList(myDatas);
+    }, []); // Se ejecuta un sola vez al inicio del render
+    if(myTasks.length === 0) {
+        return <h3>No hay tareas</h3>
+    }
+    return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <form>
+            <input
+                id="title"
+                name="title"
+                placeholder="Escribe la tarea"
+                autoFocus />
+            <br /><br />
+            <input
+                id="description"
+                name="description"
+                placeholder="Describe la tarea" />
+            <br /><br />
+            <button>Guardar Tarea</button>
+        </form>
+        <div>
+            { myTasks.map((row) => (
+                <div key={row.id} >
+                    <h3>{row.title}</h3>
+                    <p>{row.description}</p>
+                    <button>
+                        Eliminar Tarea
+                    </button>
+                </div>
+            ))}
+        </div>
     </>
   )
 }
