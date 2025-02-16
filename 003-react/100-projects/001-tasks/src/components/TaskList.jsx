@@ -1,3 +1,5 @@
+// import TaskCard from "./TaskCard";
+
 function TaskList({ myTasks, deleteTask }) {
     if(myTasks.length === 0) return <h3>No hay tareas</h3>;
     return (
@@ -10,6 +12,10 @@ function TaskList({ myTasks, deleteTask }) {
                         Eliminar Tarea
                     </button>
                 </div>
+                // <TaskCard 
+                //     key={row.id} 
+                //     task={row} 
+                //     deleteTask={deleteTask} />
             ))}
         </div>
     );
