@@ -1,12 +1,11 @@
 'use client';
+import Link from "next/link";
 
 // RCC
 export default function PostCard({ post }) {
     return <>
         <div>
-            <p>
-                {post.id}.- {post.title}
-            </p>
+            <Link href={`/posts/${post.id}`}>{post.id}.- {post.title}</Link>
             <p>
                 {post.body}
             </p>

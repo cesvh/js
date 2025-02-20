@@ -17,7 +17,7 @@ async function LoadPosts(){
 
 export default async function Posts(){
     const posts = await LoadPosts();
-    console.log(posts); // ??? Se muestra en el lado cliente
+    // console.log(posts); // ??? Se muestra en el lado cliente
     return <>
         <h1>Posts page</h1>
         {
