@@ -1,5 +1,6 @@
 // import PostCard from "../../components/PostCard";
 import PostCard from "@/components/PostCard";
+import "./Posts.css"
 
 // Ciclo normal en react
 // useState -> useEffect -> render
@@ -20,10 +21,12 @@ export default async function Posts(){
     // console.log(posts); // ??? Se muestra en el lado cliente
     return <>
         <h1>Posts page</h1>
+        <div className="grid">
         {
             posts.map((post) => (
                 <PostCard key={post.id} post={post}/>
             ))
         }
+        </div>
     </>;
 };
