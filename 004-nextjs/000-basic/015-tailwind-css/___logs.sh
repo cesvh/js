@@ -52,3 +52,26 @@ PS C:\Users\cesvh\dev\github\js\004-nextjs\000-basic\015-tailwind-css> npm run d
 (Use `node --trace-deprecation ...` to show where the warning was created)
  ✓ Compiled /posts in 7.4s (676 modules)
  GET /posts 200 in 11043ms
+
+
+PS C:\Users\cesvh\dev\github\js\004-nextjs\000-basic\015-tailwind-css>
+PS C:\Users\cesvh\dev\github\js\004-nextjs\000-basic\015-tailwind-css> npm install tailwindcss @tailwindcss/postcss postcss
+
+added 11 packages, changed 1 package, and audited 308 packages in 3s
+
+129 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\cesvh\dev\github\js\004-nextjs\000-basic\015-tailwind-css>
+PS C:\Users\cesvh\dev\github\js\004-nextjs\000-basic\015-tailwind-css> npm run dev
+
+> 015-tailwind-css@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.1.7
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.66:3000
+
+ ✓ Starting...
+ ✓ Ready in 1823ms

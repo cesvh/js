@@ -3,8 +3,9 @@ import "./Navbar.css";
 
 export default function Navbar(){
     return (
-        <nav className="navbar">
-            <h1>
+        // className="navbar"
+        <nav className="navbar py-5">
+            <h1 className="text-3xl font-bold">
                 <Link href="/">Inicio</Link>
             </h1>
             <ul>
