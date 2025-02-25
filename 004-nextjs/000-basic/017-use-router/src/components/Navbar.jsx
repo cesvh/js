@@ -13,6 +13,9 @@ export default function Navbar(){
                     <Link href="/">Principal</Link>
                 </li>
                 <li>
+                    <Link href="/users">Usuarios </Link>
+                </li>
+                <li>
                     <Link href="/about">Acerca de </Link>
                 </li>
                 <li>
