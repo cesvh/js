@@ -12,9 +12,12 @@ export function GET() {
     });
 }
 
-export function POST(){
+export async function POST(request){
+    // console.log(await request.json()); // { name: 'ces', team: 'lux' }
+    const { name, team } = await request.json();
+    // console.log(`${name} - ${team}`); // ces - lux
     return NextResponse.json({
-        message: "guardando datos"
+        "message": `${name} - ${team}`
     });
 }
 
