@@ -1,12 +1,17 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
-function NewPage(){
+function NewPage({params}){
     const router = useRouter();
+    const [title, setTitle] = useState("");
+    const [description, setDescription] = useState("");
+
     const onHandlerSubmit = async (e) => {
         e.preventDefault();
-        const title = e.target.title.value;
-        const description = e.target.description.value;
+        // const title = e.target.title.value;
+        // const description = e.target.description.value;
+
         const res = await fetch(`/api/tasks`, {
             method: "POST",
             body: JSON.stringify({title, description}),
@@ -26,13 +31,17 @@ function NewPage(){
             <input type="text"
                 id="title"
                 className="border border-gray-400 p-2 mb-4 w-full text-black"
-                placeholder="Tarea a realizar" />
+                placeholder="Tarea a realizar"
+                onChange={(e) => (setTitle(e.target.value))}
+                value={title} />
             <label htmlFor="description" 
                 className="font-bold text-sm">Descripción de la tarea</label>
             <textarea rows="3" 
                 id="description"
                 className="border border-gray-400 p-2 mb-4 w-full text-black"
-                placeholder="Describe tu tarea" ></textarea>
+                placeholder="Describe tu tarea"
+                onChange={(e) => (setDescription(e.target.value))}
+                value={description} ></textarea>
             <button 
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Crear</button>
         </form>
