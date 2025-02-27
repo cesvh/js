@@ -1,26 +1,52 @@
 "use client";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
-function NewPage({params}){
+function NewPage(){
+    const params = useParams();
+    // console.log(params);
     const router = useRouter();
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
+
+    useEffect(() => {
+        if(params.id){
+            fetch(`/api/tasks/${params.id}`)
+            .then((res) => res.json())
+            .then((data) => {
+                setTitle(data.title);
+                setDescription(data.description);
+            })
+        }
+    }, []);
 
     const onHandlerSubmit = async (e) => {
         e.preventDefault();
         // const title = e.target.title.value;
         // const description = e.target.description.value;
 
-        const res = await fetch(`/api/tasks`, {
-            method: "POST",
-            body: JSON.stringify({title, description}),
-            headers: {
-                "Content-Type": "application/json"
-            }
-        });
-        const data = await res.json();
-        console.log(data);
+        if(params.id){
+            const res = await fetch(`/api/tasks/${params.id}`, {
+                method: "PUT",
+                body: JSON.stringify({title, description}),
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+            const data = await res.json();
+            console.log(data);
+        }else{
+            const res = await fetch(`/api/tasks`, {
+                method: "POST",
+                body: JSON.stringify({title, description}),
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+            const data = await res.json();
+            // console.log(data);
+        }
+        router.refresh();
         router.push("/");
     };
 
