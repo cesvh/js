@@ -51,7 +51,7 @@ function NewPage(){
     };
 
     return <div className="h-screen flex justify-center items-center">
-        <form className="bg-slate-800 p-10 w-1/4" onSubmit={onHandlerSubmit}>
+        <form className="bg-slate-800 p-10 lg:w-1/4 md:w-1/2" onSubmit={onHandlerSubmit}>
             <label htmlFor="title" 
                 className="font-bold text-sm">Título de la tarea</label>
             <input type="text"
@@ -68,8 +68,28 @@ function NewPage(){
                 placeholder="Describe tu tarea"
                 onChange={(e) => (setDescription(e.target.value))}
                 value={description} ></textarea>
-            <button 
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Crear</button>
+            <div className="flex justify-between">
+                <button 
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    type="submit" >{params.id ? "Actualizar": "Crear"}</button>
+                {
+                    params.id && (
+                        <button 
+                            className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                            type="button"
+                            onClick={async () => {
+                                const res = await fetch(`/api/tasks/${params.id}`, {
+                                    "method": "DELETE",
+                                });
+                                const data = await res.json();
+                                console.log(data);
+                                router.push("/");
+                            }} 
+                            > Eliminar
+                        </button>
+                    )
+                }
+            </div>
         </form>
     </div>
 }
