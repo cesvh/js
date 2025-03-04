@@ -82,3 +82,19 @@ PS C:\Users\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck> 
 Hello, World!
 PS C:\Users\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck>
 PS C:\Users\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck>
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck>
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck> ts-node --version
+ts-node: The term 'ts-node' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck>
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck> tsc --version
+Version 5.8.2
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck>
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck> npm install -g ts-node
+
+added 20 packages in 3s
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck>
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck> ts-node --version
+v10.9.2
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck>
+PSPS C:sers\cesvh\dev\github\js\000-js\006-typescript\001-empezando\001-planck>
