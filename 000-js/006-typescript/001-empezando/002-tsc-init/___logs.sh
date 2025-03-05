@@ -14,3 +14,6 @@ Created a new tsconfig.json with:
 You can learn more at https://aka.ms/tsconfig
 PS C:\Users\cesvh\dev\github\js\000-js\006-typescript\001-empezando\002-tsc-init>
 PS C:\Users\cesvh\dev\github\js\000-js\006-typescript\001-empezando\002-tsc-init>
+PS C:\Users\cesvh\dev\github\js\000-js\006-typescript\001-empezando\002-tsc-init> tsc
+PS C:\Users\cesvh\dev\github\js\000-js\006-typescript\001-empezando\002-tsc-init>
+PS C:\Users\cesvh\dev\github\js\000-js\006-typescript\001-empezando\002-tsc-init>
