@@ -43,5 +43,16 @@ var MyEnum;
 ;
 ; // Sin el const crea código js
 var estado = 2 /* LeyendoEstado.Success */;
-// console.log(LeyendoEstado); // Sin elconst en enum LeyeendoEstado no podemos acceder a la variable y falla al ejecutar ts-node filename.ts
-console.log(estado);
+var miEstado = {
+    id: 1,
+    nombre: "luz",
+    tallas: MyEnum.Mediana,
+    direccion: {
+        numero: 123,
+        calle: "buena",
+        ciudad: "mex"
+    }
+};
+miEstado.nombre = "tiempo";
+miEstado.tallas = MyEnum.Grande;
+console.log(miEstado);

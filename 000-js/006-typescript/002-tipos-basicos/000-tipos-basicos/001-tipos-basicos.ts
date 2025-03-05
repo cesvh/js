@@ -46,4 +46,33 @@ const enum LeyendoEstado { Idle, Loading, Success, Error }; // Sin el const crea
 const estado = LeyendoEstado.Success;
 
 // console.log(LeyendoEstado); // Sin elconst en enum LeyeendoEstado no podemos acceder a la variable y falla al ejecutar ts-node filename.ts
-console.log(estado);
+// console.log(estado);
+
+type TipoDireccion = {
+    numero: number,
+    calle: string,
+    ciudad: string
+};
+
+type TipoEstado = {
+    readonly id: number,
+    nombre: string,
+    tallas: MyEnum,
+    direccion: TipoDireccion
+};
+
+const miEstado: TipoEstado = { 
+    id: 1,
+    nombre: "luz",
+    tallas: MyEnum.Mediana,
+    direccion: {
+        numero: 123,
+        calle: "buena",
+        ciudad: "mex"
+    }
+};
+
+miEstado.nombre = "tiempo";
+miEstado.tallas = MyEnum.Grande;
+
+console.log(miEstado);
