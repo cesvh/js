@@ -1,9 +1,13 @@
 const title: string = "Texto title";
 
+type Color = "red" | "blue" | "green";
+
 type ButtonProps = {
   text: string;
   subtitle?: string;
-  color?: string;
+  color?: Color;
+  backgroundColor?: Color;
+  sizes?: 30 | 40 | 50;
 }
 
 function sumar(num1: number, num2: number): number {
@@ -43,7 +47,7 @@ function Page() {
       <br /><br />
       <Button2 text="Texto props" subtitle="Subtítulo" color="red" />
       <br /><br />
-      <Button3 text="Texto props" subtitle="Subtítulo" color="red" />
+      <Button3 text="Texto props" subtitle="Subtítulo" color="green" />
       <br /><br />
       <Button4 text="Texto props" subtitle="Subtítulo" />
     </div>
