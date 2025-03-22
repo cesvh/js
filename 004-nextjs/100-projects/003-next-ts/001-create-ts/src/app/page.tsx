@@ -8,6 +8,7 @@ type ButtonProps = {
   color?: Color;
   backgroundColor?: Color;
   sizes?: 30 | 40 | 50;
+  padding?: [number, number, number?, number?];
 }
 
 function sumar(num1: number, num2: number): number {
@@ -49,7 +50,7 @@ function Page() {
       <br /><br />
       <Button3 text="Texto props" subtitle="Subtítulo" color="green" />
       <br /><br />
-      <Button4 text="Texto props" subtitle="Subtítulo" />
+      <Button4 text="Texto props" subtitle="Subtítulo" padding={[22, 23]} />
     </div>
   )
 }
