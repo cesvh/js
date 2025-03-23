@@ -5,6 +5,7 @@ import PropsTipados from "@/components/buttons/PropsTipados";
 import Css from "@/components/buttons/Css";
 import RecordType from "@/components/buttons/RecordType";
 import FuncionExpresion from "@/components/buttons/FuncionExpresion";
+import ReactNode from "@/components/buttons/ReactNode";
 
 function Page() {
   return (
@@ -20,7 +21,8 @@ function Page() {
       }} /><br /><br />
       <RecordType
         onClick= { () => { console.log(`Mi onClick`); }}
-        userAges={{ "César": 30, "Cesar": 40, "Ces": 50 }} />
+        userAges={{ "César": 30, "Cesar": 40, "Ces": 50 }} /><br /><br />
+      <ReactNode /><br /><br />
     </div>
   )
 }
