@@ -2,6 +2,7 @@
 import React from "react";
 import Fundamentos from "@/components/buttons/Fundamentos";
 import PropsTipados from "@/components/buttons/PropsTipados";
+import Css from "@/components/buttons/Css";
 
 type Color = "red" | "blue" | "green";
 type ButtonProps = {
@@ -11,9 +12,6 @@ type ButtonProps = {
   backgroundColor?: Color;
   sizes?: 30 | 40 | 50;
   padding?: [number, number, number?, number?];
-}
-type ButtonPropsCss = {
-  style: React.CSSProperties;
 }
 type ButtonPropsRecordsTypes = {
   onClick: (text: string) => void;
@@ -33,14 +31,6 @@ const Button4: React.FC<ButtonProps> = (props) => {
   )
 }
 
-function ButtonCss( {style}: ButtonPropsCss) {
-  return (
-    <button style={style}>
-      Button CSS
-    </button>
-  )
-}
-
 function ButtonRecordsTypes( { onClick, userAges}: ButtonPropsRecordsTypes) {
   return (
     <button onClick={ (text) => onClick(`${text}`) }>
@@ -56,7 +46,7 @@ function Page() {
       <PropsTipados text="Texto props" subtitle="Subtítulo" color="red" /><br /><br />
       <Button3 text="Texto props" subtitle="Subtítulo" color="green" /><br /><br />
       <Button4 text="Texto props" subtitle="Subtítulo" padding={[22, 23]} /><br /><br />
-      <ButtonCss style={{
+      <Css style={{
         color: "black",
         backgroundColor: "gold",
         fontSize: "160px",
