@@ -3,6 +3,7 @@ import React from "react";
 import Fundamentos from "@/components/buttons/Fundamentos";
 import PropsTipados from "@/components/buttons/PropsTipados";
 import Css from "@/components/buttons/Css";
+import RecordType from "@/components/buttons/RecordType";
 
 type Color = "red" | "blue" | "green";
 type ButtonProps = {
@@ -13,10 +14,6 @@ type ButtonProps = {
   sizes?: 30 | 40 | 50;
   padding?: [number, number, number?, number?];
 }
-type ButtonPropsRecordsTypes = {
-  onClick: (text: string) => void;
-  userAges: Record<"César" | "Cesar" | "Ces", number>;
-};
 
 const Button3 = (props: ButtonProps) => {
   return (
@@ -28,14 +25,6 @@ const Button4: React.FC<ButtonProps> = (props) => {
   const {text, subtitle} = props;
   return (
     <button>ArrayUnionType {text} - {subtitle}</button>
-  )
-}
-
-function ButtonRecordsTypes( { onClick, userAges}: ButtonPropsRecordsTypes) {
-  return (
-    <button onClick={ (text) => onClick(`${text}`) }>
-      {userAges.Ces}
-    </button>
   )
 }
 
@@ -52,7 +41,7 @@ function Page() {
         fontSize: "160px",
         padding: "20px"
       }} /><br /><br />
-      <ButtonRecordsTypes
+      <RecordType
         onClick= { () => {
           console.log(`Mi onClick`);
         }}
