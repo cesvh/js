@@ -1,3 +1,5 @@
+import React from "react";
+
 const title: string = "Texto title";
 
 type Color = "red" | "blue" | "green";
@@ -9,6 +11,10 @@ type ButtonProps = {
   backgroundColor?: Color;
   sizes?: 30 | 40 | 50;
   padding?: [number, number, number?, number?];
+}
+
+type ButtonPropsCss = {
+  style: React.CSSProperties;
 }
 
 function sumar(num1: number, num2: number): number {
@@ -41,6 +47,14 @@ const Button4: React.FC<ButtonProps> = (props) => {
   )
 }
 
+function ButtonCss( {style}: ButtonPropsCss) {
+  return (
+    <button style={style}>
+      Button CSS
+    </button>
+  )
+}
+
 function Page() {
   return (
     <div>
@@ -51,6 +65,13 @@ function Page() {
       <Button3 text="Texto props" subtitle="Subtítulo" color="green" />
       <br /><br />
       <Button4 text="Texto props" subtitle="Subtítulo" padding={[22, 23]} />
+      <br /><br />
+      <ButtonCss style={{
+        color: "black",
+        backgroundColor: "gold",
+        fontSize: "160px",
+        padding: "20px"
+      }} />
     </div>
   )
 }
