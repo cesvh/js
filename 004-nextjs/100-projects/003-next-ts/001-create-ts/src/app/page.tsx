@@ -20,16 +20,16 @@ type ButtonPropsRecordsTypes = {
   userAges: Record<"César" | "Cesar" | "Ces", number>;
 };
 
-const Button3 = (props: ButtonProps) =>{
+const Button3 = (props: ButtonProps) => {
   return (
-    <button>Button3 {props.text} - {props.subtitle} - {props.color}</button>
+    <button>ArrayUnionType {props.text} - {props.subtitle} - {props.color}</button>
   )
 }
 
 const Button4: React.FC<ButtonProps> = (props) => {
   const {text, subtitle} = props;
   return (
-    <button>Button4 {text} - {subtitle}</button>
+    <button>ArrayUnionType {text} - {subtitle}</button>
   )
 }
 
