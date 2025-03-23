@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
 import Fundamentos from "@/components/buttons/Fundamentos";
+import PropsTipados from "@/components/buttons/PropsTipados";
 
 type Color = "red" | "blue" | "green";
 type ButtonProps = {
@@ -18,12 +19,6 @@ type ButtonPropsRecordsTypes = {
   onClick: (text: string) => void;
   userAges: Record<"César" | "Cesar" | "Ces", number>;
 };
-
-function Button2(props: { text: string, subtitle: string, color: string }) {
-  return (
-    <button>Button2 {props.text} - {props.subtitle} - {props.color}</button>
-  )
-}
 
 const Button3 = (props: ButtonProps) =>{
   return (
@@ -57,21 +52,16 @@ function ButtonRecordsTypes( { onClick, userAges}: ButtonPropsRecordsTypes) {
 function Page() {
   return (
     <div>
-      <Fundamentos text="Texto props" />
-      <br /><br />
-      <Button2 text="Texto props" subtitle="Subtítulo" color="red" />
-      <br /><br />
-      <Button3 text="Texto props" subtitle="Subtítulo" color="green" />
-      <br /><br />
-      <Button4 text="Texto props" subtitle="Subtítulo" padding={[22, 23]} />
-      <br /><br />
+      <Fundamentos text="Texto props" /><br /><br />
+      <PropsTipados text="Texto props" subtitle="Subtítulo" color="red" /><br /><br />
+      <Button3 text="Texto props" subtitle="Subtítulo" color="green" /><br /><br />
+      <Button4 text="Texto props" subtitle="Subtítulo" padding={[22, 23]} /><br /><br />
       <ButtonCss style={{
         color: "black",
         backgroundColor: "gold",
         fontSize: "160px",
         padding: "20px"
-      }} />
-      <br /><br />
+      }} /><br /><br />
       <ButtonRecordsTypes
         onClick= { () => {
           console.log(`Mi onClick`);

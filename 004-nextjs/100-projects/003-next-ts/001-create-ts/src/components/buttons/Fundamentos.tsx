@@ -9,7 +9,7 @@ function sumar(num1: number, num2: number): number {
 function Fundamentos(props: { text: string }) {
     console.log(sumar(1, 2));
     return (
-        <button>Button {title} - {props.text}</button>
+        <button>Fundamentos {title} - {props.text}</button>
     )
 }
 
