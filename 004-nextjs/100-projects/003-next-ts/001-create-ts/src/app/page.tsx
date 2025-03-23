@@ -1,4 +1,7 @@
+"use client"
+
 import React from "react";
+import { text } from "stream/consumers";
 
 const title: string = "Texto title";
 
@@ -18,6 +21,7 @@ type ButtonPropsCss = {
 }
 
 type ButtonPropsRecordsTypes = {
+  onClick: (text: string) => void;
   userAges: Record<"César" | "Cesar" | "Ces", number>;
 };
 
@@ -59,9 +63,9 @@ function ButtonCss( {style}: ButtonPropsCss) {
   )
 }
 
-function ButtonRecordsTypes( {userAges}: ButtonPropsRecordsTypes) {
+function ButtonRecordsTypes( { onClick, userAges}: ButtonPropsRecordsTypes) {
   return (
-    <button>
+    <button onClick={ (text) => onClick(`${text}`) }>
       {userAges.Ces}
     </button>
   )
@@ -85,11 +89,15 @@ function Page() {
         padding: "20px"
       }} />
       <br /><br />
-      <ButtonRecordsTypes userAges={{
-        "César": 30,
-        "Cesar": 40,
-        "Ces": 50
-      }} />
+      <ButtonRecordsTypes
+        onClick= { () => {
+          console.log(`Mi onClick`);
+        }}
+        userAges={{
+          "César": 30,
+          "Cesar": 40,
+          "Ces": 50
+        }} />
     </div>
   )
 }
