@@ -1,7 +1,6 @@
 "use client"
 
 import React from "react";
-import { text } from "stream/consumers";
 
 const title: string = "Texto title";
 
