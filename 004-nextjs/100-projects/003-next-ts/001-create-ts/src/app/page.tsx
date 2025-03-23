@@ -17,6 +17,10 @@ type ButtonPropsCss = {
   style: React.CSSProperties;
 }
 
+type ButtonPropsRecordsTypes = {
+  userAges: Record<"César" | "Cesar" | "Ces", number>;
+};
+
 function sumar(num1: number, num2: number): number {
   return num1 + num2;
 }
@@ -55,6 +59,14 @@ function ButtonCss( {style}: ButtonPropsCss) {
   )
 }
 
+function ButtonRecordsTypes( {userAges}: ButtonPropsRecordsTypes) {
+  return (
+    <button>
+      {userAges.Ces}
+    </button>
+  )
+}
+
 function Page() {
   return (
     <div>
@@ -71,6 +83,12 @@ function Page() {
         backgroundColor: "gold",
         fontSize: "160px",
         padding: "20px"
+      }} />
+      <br /><br />
+      <ButtonRecordsTypes userAges={{
+        "César": 30,
+        "Cesar": 40,
+        "Ces": 50
       }} />
     </div>
   )
