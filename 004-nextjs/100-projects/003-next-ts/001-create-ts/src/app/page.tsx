@@ -6,6 +6,7 @@ import Css from "@/components/buttons/Css";
 import RecordType from "@/components/buttons/RecordType";
 import FuncionExpresion from "@/components/buttons/FuncionExpresion";
 import ReactNode from "@/components/buttons/ReactNode";
+import JSXElement from "@/components/buttons/JSX.Element"; // Rara vez se usa
 
 function Page() {
   return (
@@ -23,6 +24,7 @@ function Page() {
         onClick= { () => { console.log(`Mi onClick`); }}
         userAges={{ "César": 30, "Cesar": 40, "Ces": 50 }} /><br /><br />
       <ReactNode /><br /><br />
+      <JSXElement /><br /><br />
     </div>
   )
 }
