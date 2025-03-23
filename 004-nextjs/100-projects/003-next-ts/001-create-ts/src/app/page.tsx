@@ -8,8 +8,8 @@ import RecordType from "@/components/buttons/RecordType";
 type Color = "red" | "blue" | "green";
 type ButtonProps = {
   text: string;
-  subtitle?: string;
-  color?: Color;
+  subtitle: string;
+  color: Color;
   backgroundColor?: Color;
   sizes?: 30 | 40 | 50;
   padding?: [number, number, number?, number?];
@@ -34,7 +34,7 @@ function Page() {
       <Fundamentos text="Texto props" /><br /><br />
       <PropsTipados text="Texto props" subtitle="Subtítulo" color="red" /><br /><br />
       <Button3 text="Texto props" subtitle="Subtítulo" color="green" /><br /><br />
-      <Button4 text="Texto props" subtitle="Subtítulo" padding={[22, 23]} /><br /><br />
+      <Button4 text="Texto props" subtitle="Subtítulo" color="green" padding={[22, 23]} /><br /><br />
       <Css style={{
         color: "black",
         backgroundColor: "gold",
@@ -42,14 +42,8 @@ function Page() {
         padding: "20px"
       }} /><br /><br />
       <RecordType
-        onClick= { () => {
-          console.log(`Mi onClick`);
-        }}
-        userAges={{
-          "César": 30,
-          "Cesar": 40,
-          "Ces": 50
-        }} />
+        onClick= { () => { console.log(`Mi onClick`); }}
+        userAges={{ "César": 30, "Cesar": 40, "Ces": 50 }} />
     </div>
   )
 }
