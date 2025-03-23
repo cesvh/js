@@ -1,11 +1,8 @@
 "use client"
-
 import React from "react";
-
-const title: string = "Texto title";
+import Fundamentos from "@/components/buttons/Fundamentos";
 
 type Color = "red" | "blue" | "green";
-
 type ButtonProps = {
   text: string;
   subtitle?: string;
@@ -14,26 +11,13 @@ type ButtonProps = {
   sizes?: 30 | 40 | 50;
   padding?: [number, number, number?, number?];
 }
-
 type ButtonPropsCss = {
   style: React.CSSProperties;
 }
-
 type ButtonPropsRecordsTypes = {
   onClick: (text: string) => void;
   userAges: Record<"César" | "Cesar" | "Ces", number>;
 };
-
-function sumar(num1: number, num2: number): number {
-  return num1 + num2;
-}
-
-function Button(props: { text: string }) {
-  console.log(sumar(1, 2));
-  return (
-    <button>Button {title} - {props.text}</button>
-  )
-}
 
 function Button2(props: { text: string, subtitle: string, color: string }) {
   return (
@@ -73,7 +57,7 @@ function ButtonRecordsTypes( { onClick, userAges}: ButtonPropsRecordsTypes) {
 function Page() {
   return (
     <div>
-      <Button text="Texto props" />
+      <Fundamentos text="Texto props" />
       <br /><br />
       <Button2 text="Texto props" subtitle="Subtítulo" color="red" />
       <br /><br />
