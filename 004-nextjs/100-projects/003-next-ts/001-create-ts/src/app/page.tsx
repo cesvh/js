@@ -14,6 +14,7 @@ import TipadoProps from "@/components/buttons/TipadoProps";
 import Spread from "@/components/buttons/Spread";
 import Intersecciones from "@/components/buttons/Intersecciones";
 import EventHandlers from "@/components/buttons/EventHandlers";
+import TypeHooks from "@/components/buttons/TypeHooks";
 
 function Page() {
   return (
@@ -21,12 +22,7 @@ function Page() {
       <Fundamentos text="Texto props" /><br />
       <PropsTipados text="Texto props" subtitle="Subtítulo" color="red" /><br />
       <FuncionExpresion /><br />
-      <Css style={{
-        color: "black",
-        backgroundColor: "gold",
-        fontSize: "16px",
-        padding: "5px"
-      }} /><br />
+      <Css style={{ color: "black", backgroundColor: "gold", fontSize: "16px", padding: "5px" }} /><br />
       <RecordType
         onClick= { () => { console.log(`Mi onClick`); }}
         userAges={{ "César": 30, "Cesar": 40, "Ces": 50 }} /><br />
@@ -39,6 +35,7 @@ function Page() {
       <Spread /><br />
       <Intersecciones /><br />
       <EventHandlers /><br />
+      <TypeHooks /><br />
     </div>
   )
 }
