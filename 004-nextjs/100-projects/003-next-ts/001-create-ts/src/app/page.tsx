@@ -12,6 +12,7 @@ import DefaultProps from "@/components/buttons/DeafultProps";
 import Interfaces from "@/components/buttons/Interfaces";
 import TipadoProps from "@/components/buttons/TipadoProps";
 import Spread from "@/components/buttons/Spread";
+import Intersecciones from "@/components/buttons/Intersecciones";
 
 function Page() {
   return (
@@ -35,6 +36,7 @@ function Page() {
       <Interfaces /><br /><br />
       <TipadoProps /><br /><br />
       <Spread /><br /><br />
+      <Intersecciones /><br /><br />
     </div>
   )
 }
