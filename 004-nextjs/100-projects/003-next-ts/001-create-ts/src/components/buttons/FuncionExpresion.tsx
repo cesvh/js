@@ -27,7 +27,7 @@ function FuncionExpresion() {
   return (
     <>
         <Button3 text="Texto props" subtitle="Subtítulo" color="green" /><br /><br />
-        <Button4 text="Texto props" subtitle="Subtítulo" color="green" padding={[22, 23]} /><br /><br />
+        <Button4 text="Texto props" subtitle="Subtítulo" color="green" padding={[22, 23]} />
     </>
   )
 }

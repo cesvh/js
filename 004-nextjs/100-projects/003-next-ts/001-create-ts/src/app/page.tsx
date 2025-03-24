@@ -9,6 +9,7 @@ import ReactNode from "@/components/buttons/ReactNode";
 import JSXElement from "@/components/buttons/JSX.Element"; // Rara vez se usa
 import Setters from "@/components/buttons/Setters";
 import DefaultProps from "@/components/buttons/DeafultProps";
+import Interfaces from "@/components/buttons/Interfaces";
 
 function Page() {
   return (
@@ -19,8 +20,8 @@ function Page() {
       <Css style={{
         color: "black",
         backgroundColor: "gold",
-        fontSize: "20px",
-        padding: "10px"
+        fontSize: "16px",
+        padding: "5px"
       }} /><br /><br />
       <RecordType
         onClick= { () => { console.log(`Mi onClick`); }}
@@ -29,6 +30,7 @@ function Page() {
       <JSXElement /><br /><br />
       <Setters /><br /><br />
       <DefaultProps /><br /><br />
+      <Interfaces /><br /><br />
     </div>
   )
 }
