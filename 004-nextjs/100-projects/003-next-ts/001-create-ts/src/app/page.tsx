@@ -15,6 +15,7 @@ import Spread from "@/components/buttons/Spread";
 import Intersecciones from "@/components/buttons/Intersecciones";
 import EventHandlers from "@/components/buttons/EventHandlers";
 import TypeHooks from "@/components/buttons/TypeHooks";
+import UtilityTypes from "@/components/buttons/UtilityTypes";
 
 function Page() {
   return (
@@ -36,6 +37,7 @@ function Page() {
       <Intersecciones /><br />
       <EventHandlers /><br />
       <TypeHooks /><br />
+      <UtilityTypes /><br />
     </div>
   )
 }
