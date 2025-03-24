@@ -10,6 +10,7 @@ import JSXElement from "@/components/buttons/JSX.Element"; // Rara vez se usa
 import Setters from "@/components/buttons/Setters";
 import DefaultProps from "@/components/buttons/DeafultProps";
 import Interfaces from "@/components/buttons/Interfaces";
+import TipadoProps from "@/components/buttons/TipadoProps";
 
 function Page() {
   return (
@@ -31,6 +32,7 @@ function Page() {
       <Setters /><br /><br />
       <DefaultProps /><br /><br />
       <Interfaces /><br /><br />
+      <TipadoProps /><br /><br />
     </div>
   )
 }
