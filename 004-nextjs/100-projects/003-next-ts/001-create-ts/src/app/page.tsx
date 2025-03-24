@@ -13,30 +13,32 @@ import Interfaces from "@/components/buttons/Interfaces";
 import TipadoProps from "@/components/buttons/TipadoProps";
 import Spread from "@/components/buttons/Spread";
 import Intersecciones from "@/components/buttons/Intersecciones";
+import EventHandlers from "@/components/buttons/EventHandlers";
 
 function Page() {
   return (
     <div>
-      <Fundamentos text="Texto props" /><br /><br />
-      <PropsTipados text="Texto props" subtitle="Subtítulo" color="red" /><br /><br />
-      <FuncionExpresion /><br /><br />
+      <Fundamentos text="Texto props" /><br />
+      <PropsTipados text="Texto props" subtitle="Subtítulo" color="red" /><br />
+      <FuncionExpresion /><br />
       <Css style={{
         color: "black",
         backgroundColor: "gold",
         fontSize: "16px",
         padding: "5px"
-      }} /><br /><br />
+      }} /><br />
       <RecordType
         onClick= { () => { console.log(`Mi onClick`); }}
-        userAges={{ "César": 30, "Cesar": 40, "Ces": 50 }} /><br /><br />
-      <ReactNode /><br /><br />
-      <JSXElement /><br /><br />
-      <Setters /><br /><br />
-      <DefaultProps /><br /><br />
-      <Interfaces /><br /><br />
-      <TipadoProps /><br /><br />
-      <Spread /><br /><br />
-      <Intersecciones /><br /><br />
+        userAges={{ "César": 30, "Cesar": 40, "Ces": 50 }} /><br />
+      <ReactNode /><br />
+      <JSXElement /><br />
+      <Setters /><br />
+      <DefaultProps /><br />
+      <Interfaces /><br />
+      <TipadoProps /><br />
+      <Spread /><br />
+      <Intersecciones /><br />
+      <EventHandlers /><br />
     </div>
   )
 }
