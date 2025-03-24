@@ -11,6 +11,7 @@ import Setters from "@/components/buttons/Setters";
 import DefaultProps from "@/components/buttons/DeafultProps";
 import Interfaces from "@/components/buttons/Interfaces";
 import TipadoProps from "@/components/buttons/TipadoProps";
+import Spread from "@/components/buttons/Spread";
 
 function Page() {
   return (
@@ -33,6 +34,7 @@ function Page() {
       <DefaultProps /><br /><br />
       <Interfaces /><br /><br />
       <TipadoProps /><br /><br />
+      <Spread /><br /><br />
     </div>
   )
 }
