@@ -16,6 +16,7 @@ import Intersecciones from "@/components/buttons/Intersecciones";
 import EventHandlers from "@/components/buttons/EventHandlers";
 import TypeHooks from "@/components/buttons/TypeHooks";
 import UtilityTypes from "@/components/buttons/UtilityTypes";
+import Alias from "@/components/buttons/Alias";
 
 function Page() {
   return (
@@ -38,6 +39,7 @@ function Page() {
       <EventHandlers /><br />
       <TypeHooks /><br />
       <UtilityTypes /><br />
+      <Alias /><br />
     </div>
   )
 }
