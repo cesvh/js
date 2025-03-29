@@ -6,7 +6,7 @@ abstract class Employee {
     constructor(private firstName: string, private lastName: string) {}
 
     abstract getSalary(): number;
-        get fullName(): string {
+    get fullName(): string {
         return `${this.firstName} ${this.lastName}`;
     }
 
