@@ -17,6 +17,7 @@ import EventHandlers from "@/components/buttons/EventHandlers";
 import TypeHooks from "@/components/buttons/TypeHooks";
 import UtilityTypes from "@/components/buttons/UtilityTypes";
 import Alias from "@/components/buttons/Alias";
+import Generics from "@/components/buttons/Generics";
 
 function Page() {
   return (
@@ -40,6 +41,7 @@ function Page() {
       <TypeHooks /><br />
       <UtilityTypes /><br />
       <Alias /><br />
+      <Generics /><br />
     </div>
   )
 }
