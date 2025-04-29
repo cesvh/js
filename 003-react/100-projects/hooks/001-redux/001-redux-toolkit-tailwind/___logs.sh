@@ -71,3 +71,21 @@ PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
   ➜  press h to show help
+
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npm install @reduxjs/toolkit react-redux
+
+added 10 packages, and audited 283 packages in 3s
+
+110 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
