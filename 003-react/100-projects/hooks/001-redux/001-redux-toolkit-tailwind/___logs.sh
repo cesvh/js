@@ -105,3 +105,51 @@ To address all issues (including breaking changes), run:
 Run `npm audit` for details.
 PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
 PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npm install react-router
+
+added 4 packages, and audited 288 packages in 2s
+
+111 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npm uninstall react-router
+
+removed 4 packages, and audited 284 packages in 2s
+
+111 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npm install react-router-dom
+
+added 5 packages, and audited 289 packages in 2s
+
+111 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
