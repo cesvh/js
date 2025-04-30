@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { deleteTask } from "../features/tasks/taskSlice";
+import { Link } from "react-router-dom";
 
 function TaskList() {
     console.log('TaskList');
@@ -15,6 +16,10 @@ function TaskList() {
 
   return (
     <div>
+      <header>
+        <h1>Tareas {tasksState.length}</h1>
+        <Link to="/tasks">Agregar Tarea</Link>
+      </header>
       {tasksState.map((task) => (
         <div key={task.id}>
           <h2>{task.title}</h2>

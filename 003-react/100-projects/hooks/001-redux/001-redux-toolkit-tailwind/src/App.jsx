@@ -13,8 +13,8 @@ function App() {
     <div className='App'>
       <Router>
         <Routes>
-          <Route path='/' element={<TaskForm />} />
-          <Route path='/tasks' element={<TaskList />} />
+          <Route path='/' element={<TaskList />} />
+          <Route path='/tasks' element={<TaskForm />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
