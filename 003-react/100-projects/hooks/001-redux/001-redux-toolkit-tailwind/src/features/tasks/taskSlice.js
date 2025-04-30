@@ -38,7 +38,6 @@ export const taskSlice = createSlice({
                 // state.splice(state.indexOf(taskFound), 1, action.payload);
                 taskFound.title = action.payload.title;
                 taskFound.description = action.payload.description;
-                taskFound.completed = action.payload.completed;
             }
         },
         completeTask: (state, action) => {

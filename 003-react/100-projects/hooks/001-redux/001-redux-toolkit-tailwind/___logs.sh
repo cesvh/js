@@ -153,3 +153,57 @@ To address all issues (including breaking changes), run:
 Run `npm audit` for details.
 PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
 PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npm install tailwindcss
+
+added 1 package, and audited 290 packages in 2s
+
+111 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npm uninstall tailwindcss
+
+removed 1 package, and audited 289 packages in 1s
+
+111 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npm install -D tailwindcss@3 postcss autoprefixer
+
+added 80 packages, and audited 369 packages in 7s
+
+134 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npx tailwindcss init -p
+
+Created Tailwind CSS config file: tailwind.config.js
+Created PostCSS config file: postcss.config.js
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
