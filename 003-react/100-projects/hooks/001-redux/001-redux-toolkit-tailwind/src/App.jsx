@@ -14,7 +14,8 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<TaskList />} />
-          <Route path='/tasks' element={<TaskForm />} />
+          <Route path='/create-task' element={<TaskForm />} />
+          <Route path='/edit-task/:id' element={<TaskForm />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>

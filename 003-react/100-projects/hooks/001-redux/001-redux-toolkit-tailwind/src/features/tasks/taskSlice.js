@@ -31,8 +31,24 @@ export const taskSlice = createSlice({
             //     state.splice(state.indexOf(taskFound), 1);
             // }
         },
+        editTask: (state, action) => {
+            // console.log(state, action);
+            const taskFound = state.find((task) => task.id === action.payload.id);
+            if(taskFound) {
+                // state.splice(state.indexOf(taskFound), 1, action.payload);
+                taskFound.title = action.payload.title;
+                taskFound.description = action.payload.description;
+                taskFound.completed = action.payload.completed;
+            }
+        },
+        completeTask: (state, action) => {
+            const taskFound = state.find((task) => task.id === action.payload);
+            if(taskFound) {
+                taskFound.completed = !taskFound.completed;
+            }
+        },
     },
 });
 
-export const { addTask, deleteTask } = taskSlice.actions;
+export const { addTask, deleteTask, editTask, completeTask } = taskSlice.actions;
 export default taskSlice.reducer;

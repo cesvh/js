@@ -17,14 +17,15 @@ function TaskList() {
   return (
     <div>
       <header>
-        <h1>Tareas {tasksState.length}</h1>
-        <Link to="/tasks">Agregar Tarea</Link>
+        <h1>No. de tareas: {tasksState.length}</h1>
+        <Link to="/create-task">Agregar Tarea</Link>
       </header>
       {tasksState.map((task) => (
         <div key={task.id}>
           <h2>{task.title}</h2>
           <p>{task.description}</p>
           <button onClick={() => handleDelete(task.id)}>Eliminar</button>
+          <Link to={`/edit-task/${task.id}`}>Editar</Link>
         </div>
       ))}
     </div>
