@@ -207,3 +207,17 @@ Created Tailwind CSS config file: tailwind.config.js
 Created PostCSS config file: postcss.config.js
 PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
 PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind> npm run build
+
+> 001-redux-toolkit-tailwind@0.0.0 build
+> vite build
+
+vite v4.5.13 building for production...
+✓ 78 modules transformed.
+dist/index.html                   0.45 kB │ gzip:  0.29 kB
+dist/assets/index-2a4939a8.css    6.33 kB │ gzip:  1.89 kB
+dist/assets/index-f20d1039.js   203.44 kB │ gzip: 67.65 kB
+✓ built in 2.05s
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>
+PS C:\Users\cesvh\dev\github\js\003-react\100-projects\hooks\001-redux\001-redux-toolkit-tailwind>

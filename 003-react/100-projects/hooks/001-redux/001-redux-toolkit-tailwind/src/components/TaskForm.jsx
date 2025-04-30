@@ -20,7 +20,7 @@ function TaskForm() {
         setTask(taskFound);
       }
     }
-  }, []);
+  }, [params.id, tasksState]);
   const handleChange = (e) => {
     setTask({
       ...task,
@@ -42,27 +42,33 @@ function TaskForm() {
   };
 
   return (<>
-      <header>
-        <h1>No. de tareas: {tasksState.length}</h1>
-        <Link to="/">Home</Link>
-      </header>
-    <form onSubmit={handleSubmit}>
-        <input 
-          type="text" 
-          id="title" 
-          name="title" 
-          placeholder="Título" 
-          onChange={handleChange} 
-          value={task.title} />
-        <textarea 
-          id="description" 
-          name="description" 
-          placeholder="Descripción" 
-          onChange={handleChange} 
-          value={task.description}></textarea>
-      <button type="submit">Agregar Tarea</button>
-    </form>
-  </>
+      <div className="">
+        <div className="flex justify-between items-center py-4">
+          <h1 className="text-2xl font-bold">{params.id ? "Editar Tarea" : "Agregar Tarea"}</h1>
+          <Link to="/">Ir a la lista</Link>
+        </div>
+        <form onSubmit={handleSubmit} className="bg-zinc-800 max-w-sm p-4 mb-2">
+          <label htmlFor="title" className="block text-sm font-bold">Título</label>
+            <input 
+              type="text" 
+              id="title" 
+              name="title" 
+              placeholder="Título" 
+              onChange={handleChange} 
+              value={task.title} 
+              className="w-full p-2 rounded-md bg-zinc-600 mb-2"/>
+          <label htmlFor="description" className="block text-sm font-bold">Descripción</label>
+            <textarea 
+              id="description" 
+              name="description" 
+              placeholder="Descripción" 
+              onChange={handleChange} 
+              value={task.description} 
+              className="w-full p-2 rounded-md bg-zinc-600 mb-2"></textarea>
+          <button type="submit" className="bg-indigo-600 px-2 py-1 rounded-md text-white">{params.id ? "Editar Tarea" : "Agregar Tarea"}</button>
+        </form>
+      </div>
+    </>
   );
 }
 
