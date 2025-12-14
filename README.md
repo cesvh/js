@@ -1,13 +1,15 @@
 # js
 Tecnologías JS
 
+<!--
+
 Node
 - Conceptos básicos
-    - [Instalación windows](./node/conceptos-basicos/instalacion/)<!-- Acá falta en MD del índice -->
-        - [Windows](./node/conceptos-basicos/instalacion/instalacion-windows.bat)<!-- Falta detallar el proceso --> - [Linux](./node/conceptos-basicos/instalacion/instalacion.bash) <!-- Hacer el proceso en linux -->
-    - [Origen y filosofía](./node/conceptos-basicos/filosofia/origen-filosofia.md) <!-- Mejorar detalle y ortografía -->
-    - [Event loop](./node/conceptos-basicos/event-loop/event-loop.md) <!-- Mejorar detalle y ortografía -->
-    - [Monohilo](./node/conceptos-basicos/monohilo/monohilo.js) <!-- Muy vacuo -->
+    - [Instalación windows](./node/conceptos-basicos/instalacion/)<!-- Acá falta en MD del índice
+        - [Windows](./node/conceptos-basicos/instalacion/instalacion-windows.bat)<!-- Falta detallar el proceso - [Linux](./node/conceptos-basicos/instalacion/instalacion.bash) <!-- Hacer el proceso en linux
+    - [Origen y filosofía](./node/conceptos-basicos/filosofia/origen-filosofia.md) <!-- Mejorar detalle y ortografía
+    - [Event loop](./node/conceptos-basicos/event-loop/event-loop.md) <!-- Mejorar detalle y ortografía
+    - [Monohilo](./node/conceptos-basicos/monohilo/monohilo.js) <!-- Muy vacuo
     - [Variables de entorno](./node/conceptos-basicos/variables-de-entorno/variables-de-entorno.md)
         - [Dependencias](./node/conceptos-basicos/variables-de-entorno/package.json) - [npm install](./node/conceptos-basicos/variables-de-entorno/variables-de-entorno.bash) - [Código](./node/conceptos-basicos/variables-de-entorno/variables-de-entorno.js)
     - [Nodemon - Desarrollo](./node/conceptos-basicos/nodemon/nodemon.bash)
@@ -32,19 +34,25 @@ Node
         - [Promesas](./node/asincronia/promesas/promesas/promesas.js) - [Terminal](./node/asincronia/promesas/promesas/promesas.bash)
         - [Promesa anidada]() - [Terminal]()
         - [Otra promesa anidada]() - [Terminal]()
-    <!-- - [Async Await]() -->
-- Módulos del Core
-    <!-- - [Global]() -->
-    <!-- - [File system]() -->
-    <!-- - [Console]() -->
-    <!-- - [Errores (try/catch)]() -->
-    <!-- - [Manejar errores de asincronía con try/catch]() -->
-    <!-- - [Procesos hijo]() -->
-    <!-- - [http]() -->
-    <!-- - [os]() -->
-    <!-- - [Process]() -->
-- Módulos y paquetes externos
-    <!-- - [npm y package.json]() -->
-    <!-- - [Módulos](require e import) -->
-    <!-- - [Buffer]() -->
-    <!-- - [Stream]() -->
+-->
+
+<!-- - [Async Await]() -->
+
+
+<!-- - Módulos del Core -->
+<!-- - [Global]() -->
+<!-- - [File system]() -->
+<!-- - [Console]() -->
+<!-- - [Errores (try/catch)]() -->
+<!-- - [Manejar errores de asincronía con try/catch]() -->
+<!-- - [Procesos hijo]() -->
+<!-- - [http]() -->
+<!-- - [os]() -->
+<!-- - [Process]() -->
+
+
+<!-- - Módulos y paquetes externos -->
+<!-- - [npm y package.json]() -->
+<!-- - [Módulos](require e import) -->
+<!-- - [Buffer]() -->
+<!-- - [Stream]() -->
