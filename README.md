@@ -1,6 +1,19 @@
 # js
 Tecnologías JS
 
+JS - Core
+
+- Sintaxis
+- Variables
+- Tipo de datos
+    - string
+    - number
+    - boolean
+    - undefined
+    - null
+    - symbol
+    - bigint
+
 <!--
 
 Node
