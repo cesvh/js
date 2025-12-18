@@ -6,20 +6,17 @@ let items = document.querySelectorAll('ol > li > span > div > p');
 items.forEach( i => console.log(i.innerText));
 
 /*
-Bienvenida al curso
-    Bienvenida
-
 Introducción a JavaScript
-    Entorno y modo de trabajo del curso
-    ¿Qué es una variable?
-    Tipos de Datos (primitivos)
-    Variables Constantes
-    Sentencia condicional if
-    Operador ternario
-    Sentencia condicional switch
-    Sentencia de repetición while (bucle)
-    Sentencia de repetición do while (bucle)
-    Sentencia de repetición for (bucle)
+    // Entorno y modo de trabajo del curso
+    // ¿Qué es una variable?
+    // Tipos de Datos (primitivos)
+    // Variables Constantes
+    // Sentencia condicional if
+    // Operador ternario
+    // Sentencia condicional switch
+    // Sentencia de repetición while (bucle)
+    // Sentencia de repetición do while (bucle)
+    // Sentencia de repetición for (bucle)
     Funcionamiento de continue en Bucles
     Funcionamiento de break en Bucles
     ¿Qué es una función?
