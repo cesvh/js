@@ -28,8 +28,8 @@ Introducción a JavaScript
     // 12 - 124 - Funcionamiento de continue en Bucles
     // 13 - 123 - Funcionamiento de break en Bucles
     // 14 - 122 - ¿Qué es una función?
-    15 - 121 - Scope de variables
-    16 - 120 - Template literals
+    // 15 - 121 - Scope de variables
+    // 16 - 120 - Template literals
 
 Programación Orientada a Objetos
     17 - 119 - Introducción a la Programación Orientada a Objetos
