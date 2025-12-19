@@ -18,7 +18,7 @@ Introducción a JavaScript
     // Sentencia de repetición do while (bucle)
     // Sentencia de repetición for (bucle)
     // Funcionamiento de continue en Bucles
-    Funcionamiento de break en Bucles
+    // Funcionamiento de break en Bucles
     ¿Qué es una función?
     Scope de variables
     Template literals
