@@ -1,16 +1,26 @@
-
+// Falta optimizar este primer array
 let itemsTitles = document.querySelectorAll('div > button > h3');
 itemsTitles.forEach( i => console.log(i.innerText));
 
 let items = document.querySelectorAll('ol > li > span > div > p');
 let lenMiTexto = items.length;
+let ascendente = "";
+let descendente = "";
+let porcentaje = 0;
 
-items.forEach( (i, indice) => { 
-	console.log(`${++indice} (${(Math.round(((indice) * 100 / lenMiTexto) * 100) / 100)}%) - ${lenMiTexto - (indice)+1} - ${i.innerText}`);
+items.forEach( (i, indice) => {
+    porcentaje = (Math.round(((indice + 1) * 100 / lenMiTexto) * 100) / 100);
+    ascendente = `${++indice} (${porcentaje}%)`;
+    descendente = `${lenMiTexto - (indice) + 1} - ${i.innerText}`;
+    // Mismo resultado que: + 1
+    // descendente = `${lenMiTexto - (indice-1)} - ${i.innerText}`;
+	console.log(`${ascendente} - ${descendente}`);
 });
 
+// Lo ideal es que ambos arrays se unifiquen y se otenga un resultado como el siguiente:
+
 /*
-Biemvenida
+Bienvenida
 	// 1 (0.74%) - 135 - Bienvenida
 
 Introducción a JavaScript
