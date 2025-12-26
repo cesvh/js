@@ -46,7 +46,7 @@ Programación Orientada a Objetos
 	// 19 (14.07%) - 117 - Clases y Objetos
 	// 20 (14.81%) - 116 - Encapsulamiento privado
 	// 21 (15.56%) - 115 - Accessors Get y Set
-	22 (16.3%) - 114 - Herencia
+	// 22 (16.3%) - 114 - Herencia
 	23 (17.04%) - 113 - Sobrescritura de métodos
 	24 (17.78%) - 112 - Abstracción
 	25 (18.52%) - 111 - Polimorfismo
