@@ -47,9 +47,9 @@ Programación Orientada a Objetos
 	// 20 (14.81%) - 116 - Encapsulamiento privado
 	// 21 (15.56%) - 115 - Accessors Get y Set
 	// 22 (16.3%) - 114 - Herencia
-	23 (17.04%) - 113 - Sobrescritura de métodos
-	24 (17.78%) - 112 - Abstracción
-	25 (18.52%) - 111 - Polimorfismo
+	// 23 (17.04%) - 113 - Sobrescritura de métodos
+	// 24 (17.78%) - 112 - Abstracción
+	// 25 (18.52%) - 111 - Polimorfismo
 	26 (19.26%) - 110 - Static
 	27 (20%) - 109 - Funciones constructoras
 
@@ -87,7 +87,7 @@ Programación Funcional
 	54 (40%) - 82 - Función pipe
 	55 (40.74%) - 81 - Recursividad
 	56 (41.48%) - 80 - Ejercicio: Recursividad en un escenario real
-
+--
 Arrays y Programación Funcional
 	57 (42.22%) - 79 - Método map
 	58 (42.96%) - 78 - Método filter
@@ -120,7 +120,7 @@ Manejo de Errores
 	81 (60%) - 55 - Manejo de Errores con try...catch
 	82 (60.74%) - 54 - Lanzar Error (throw)
 	83 (61.48%) - 53 - Errores Personalizados
-
+--
 Manipulación del DOM con JavaScrip
 	84 (62.22%) - 52 - ¿Qué es un Entorno de Ejecución? (Runtime Environment)
 	85 (62.96%) - 51 - ¿Qué es el DOM? (Document Object Model)
@@ -135,7 +135,7 @@ Manipulación del DOM con JavaScrip
 	94 (69.63%) - 42 - Creación y eliminación de elementos dinámicamente
 	95 (70.37%) - 41 - Formularios
 	96 (71.11%) - 40 - Ejercicio: Creación de contenido dinámico con código organizado
-
+--
 Programación Asíncrona
 	97 (71.85%) - 39 - ¿Qué es Programación Asíncrona?
 	98 (72.59%) - 38 - Funciones síncronas
@@ -162,7 +162,7 @@ Api fetch
 	117 (86.67%) - 19 - Solicitudes POST
 	118 (87.41%) - 18 - Solicitudes PUT
 	119 (88.15%) - 17 - Solicitudes DELETE
-
+--
 Proyecto Final
 	120 (88.89%) - 16 - Creación de proyecto
 	121 (89.63%) - 15 - Creación de tabla HTML
