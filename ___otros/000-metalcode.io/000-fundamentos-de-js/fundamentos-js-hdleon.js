@@ -12,7 +12,6 @@ items.forEach( (i, indice) => {
     porcentaje = (Math.round(((indice + 1) * 100 / lenMiTexto) * 100) / 100);
     ascendente = `${++indice} (${porcentaje}%)`;
     descendente = `${lenMiTexto - (indice) + 1} - ${i.innerText}`;
-    // Mismo resultado que: + 1
     // descendente = `${lenMiTexto - (indice-1)} - ${i.innerText}`;
 	console.log(`${ascendente} - ${descendente}`);
 });
@@ -50,8 +49,8 @@ Programación Orientada a Objetos
 	// 23 (17.04%) - 113 - Sobrescritura de métodos
 	// 24 (17.78%) - 112 - Abstracción
 	// 25 (18.52%) - 111 - Polimorfismo
-	26 (19.26%) - 110 - Static
-	27 (20%) - 109 - Funciones constructoras
+	// 26 (19.26%) - 110 - Static
+	// 27 (20%) - 109 - Funciones constructoras
 
 Introducción a Arrays
 	28 (20.74%) - 108 - ¿Qué es un Array?
