@@ -53,8 +53,8 @@ Programación Orientada a Objetos
 	// 27 (20%) - 109 - Funciones constructoras
 
 Introducción a Arrays
-	28 (20.74%) - 108 - ¿Qué es un Array?
-	29 (21.48%) - 107 - Agregar elementos a un array
+	// 28 (20.74%) - 108 - ¿Qué es un Array?
+	// 29 (21.48%) - 107 - Agregar elementos a un array
 	30 (22.22%) - 106 - Eliminar elementos de un array
 	31 (22.96%) - 105 - Sentencia de repetición for...of
 	32 (23.7%) - 104 - Arrays bidimensionales
