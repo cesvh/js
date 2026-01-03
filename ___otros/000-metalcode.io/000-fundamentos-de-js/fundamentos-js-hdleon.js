@@ -58,7 +58,7 @@ Introducción a Arrays
 	// 30 (22.22%) - 106 - Eliminar elementos de un array
 	// 31 (22.96%) - 105 - Sentencia de repetición for...of
 	// 32 (23.7%) - 104 - Arrays bidimensionales
-	33 (24.44%) - 103 - Array de objetos
+	// 33 (24.44%) - 103 - Array de objetos
 	34 (25.19%) - 102 - Objetos con arrays
 
 Referencia, Mutabilidad e Inmutabilidad
