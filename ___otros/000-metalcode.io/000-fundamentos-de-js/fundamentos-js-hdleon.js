@@ -62,7 +62,7 @@ Introducción a Arrays
 	// 34 (25.19%) - 102 - Objetos con arrays
 
 Referencia, Mutabilidad e Inmutabilidad
-	35 (25.93%) - 101 - Paso por Valor vs Paso por Referencia
+	// 35 (25.93%) - 101 - Paso por Valor vs Paso por Referencia
 	36 (26.67%) - 100 - Paso por Valor y Referencia como parámetro en funciones
 	37 (27.41%) - 99 - Mutabilidad en Programación
 	38 (28.15%) - 98 - Funciones Inmutables 
