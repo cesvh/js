@@ -1,6 +1,6 @@
 // Falta optimizar este primer array
 let itemsTitles = document.querySelectorAll('div > button > h3');
-itemsTitles.forEach( i => console.log(i.innerText));
+itemsTitles.forEach( i => console.log(i.innerText.trim()));
 
 let items = document.querySelectorAll('ol > li > span > div > p');
 let lenMiTexto = items.length;
@@ -63,7 +63,7 @@ Introducción a Arrays
 
 Referencia, Mutabilidad e Inmutabilidad
 	// 35 (25.93%) - 101 - Paso por Valor vs Paso por Referencia
-	36 (26.67%) - 100 - Paso por Valor y Referencia como parámetro en funciones
+	// 36 (26.67%) - 100 - Paso por Valor y Referencia como parámetro en funciones
 	37 (27.41%) - 99 - Mutabilidad en Programación
 	38 (28.15%) - 98 - Funciones Inmutables 
 	39 (28.89%) - 97 - Operador Spread (...)
@@ -180,5 +180,5 @@ Proyecto Final
 	134 (99.26%) - 2 - Ejecución de eliminar elemento
 
 Conclusión y código fuente
-	135 (100%) - 1 - Despedida y código fuente
+	// 135 (100%) - 1 - Despedida y código fuente
 */
