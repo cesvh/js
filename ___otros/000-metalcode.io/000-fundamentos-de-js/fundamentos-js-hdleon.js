@@ -67,9 +67,9 @@ Referencia, Mutabilidad e Inmutabilidad
 	// 37 (27.41%) - 99 - Mutabilidad en Programación
 	// 38 (28.15%) - 98 - Funciones Inmutables 
 	// 39 (28.89%) - 97 - Operador Spread (...)
-	40 (29.63%) - 96 - Operador Spread en Arrays
-	41 (30.37%) - 95 - Operador Spread para combinar objetos
-	42 (31.11%) - 94 - Clonación de objetos a profundidad con structureClone()
+	// 40 (29.63%) - 96 - Operador Spread en Arrays
+	// 41 (30.37%) - 95 - Operador Spread para combinar objetos
+	// 42 (31.11%) - 94 - Clonación de objetos a profundidad con structureClone()
 
 Programación Funcional
 	43 (31.85%) - 93 - Introducción a Programación Funcional
