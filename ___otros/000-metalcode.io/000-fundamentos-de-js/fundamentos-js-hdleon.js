@@ -65,7 +65,7 @@ Referencia, Mutabilidad e Inmutabilidad
 	// 35 (25.93%) - 101 - Paso por Valor vs Paso por Referencia
 	// 36 (26.67%) - 100 - Paso por Valor y Referencia como parámetro en funciones
 	// 37 (27.41%) - 99 - Mutabilidad en Programación
-	38 (28.15%) - 98 - Funciones Inmutables 
+	// 38 (28.15%) - 98 - Funciones Inmutables 
 	39 (28.89%) - 97 - Operador Spread (...)
 	40 (29.63%) - 96 - Operador Spread en Arrays
 	41 (30.37%) - 95 - Operador Spread para combinar objetos
@@ -101,7 +101,7 @@ Arrays y Programación Funcional
 	67 (49.63%) - 69 - Ejercicio: operaciones inmutables en arrays
 	68 (50.37%) - 68 - Ejercicio: currying aplicado a filtros
 	69 (51.11%) - 67 - Ejercicio: transformando Arrays con Métodos Funcionales
-
+--
 Manipulación y Control Avanzado de Objetos
 	70 (51.85%) - 66 - Desestructuración (destructuring)
 	71 (52.59%) - 65 - Operador rest (...)
