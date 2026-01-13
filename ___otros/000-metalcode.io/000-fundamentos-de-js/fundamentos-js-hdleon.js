@@ -72,11 +72,11 @@ Referencia, Mutabilidad e Inmutabilidad
 	// 42 (31.11%) - 94 - Clonación de objetos a profundidad con structureClone()
 
 Programación Funcional
-	43 (31.85%) - 93 - Introducción a Programación Funcional
-	44 (32.59%) - 92 - Función Pura
-	45 (33.33%) - 91 - Función de Primera Clase
-	46 (34.07%) - 90 - Funciones Flecha (arrow function)
-	47 (34.81%) - 89 - Función de Orden Superior
+	// 43 (31.85%) - 93 - Introducción a Programación Funcional
+	// 44 (32.59%) - 92 - Función Pura
+	// 45 (33.33%) - 91 - Función de Primera Clase
+	// 46 (34.07%) - 90 - Funciones Flecha (arrow function)
+	// 47 (34.81%) - 89 - Función de Orden Superior
 	48 (35.56%) - 88 - Funciones como paso de referencia
 	49 (36.3%) - 87 - Clausura (Closure)
 	50 (37.04%) - 86 - Control de ejecución de funciones por medio de Closures
