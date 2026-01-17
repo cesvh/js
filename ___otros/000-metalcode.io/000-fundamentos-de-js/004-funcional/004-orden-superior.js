@@ -1,3 +1,4 @@
+// Recibe funciones como parámetro
 function add(x, y, fn){
     const result = x + y;
     fn(result);
@@ -15,6 +16,7 @@ add(5, 10, showResult);
 add(5, 10, showResult2);
 add(5, 10, (result) => console.log(`\nfncAnonima: ${result}`));
 
+// Retorna función como parámetro
 function returnFunction(texto){
     return function() {
         console.log(`\nEsta es una función retornada: ${texto}`);

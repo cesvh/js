@@ -3,6 +3,7 @@ function toUpperCase(libro){
     return libro;
 }
 
+// Se crea un nuevo objeto
 function toUpperCaseInmutable(libro){
     const nuevoLibro = {
         nombre: libro.nombre.toUpperCase(),

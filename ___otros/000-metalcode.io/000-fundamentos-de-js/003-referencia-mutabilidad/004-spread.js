@@ -1,5 +1,5 @@
 const objetoLibro1 = { nombre: "neuromante", precio: 500 };
-const objetoLibro2 = { ...objetoLibro1 };
+const objetoLibro2 = { ...objetoLibro1 }; // Clonación de un objeto
 
 // console.log("\nobjetoLibro1:");
 console.log(objetoLibro1);
@@ -13,7 +13,7 @@ console.log(objetoLibro2);
 
 console.log("\n------------------------------------------------");
 
-const objetoLibro3 = { ...objetoLibro1, precio: 300 };
+const objetoLibro3 = { ...objetoLibro1, precio: 300 }; // Clona todo, pero precio se le cambia el valor
 // console.log("\nobjetoLibro3:");
 console.log(objetoLibro3);
 // console.log("\nobjetoLibro1 === objetoLibro3:");
@@ -21,6 +21,7 @@ console.log(objetoLibro1 === objetoLibro3);
 
 console.log("\n------------------------------------------------");
 
+// Se clona un objeto excepto el nombre que este valor se modifica
 function toUpperCaseImmutable(libro) {
     const nuevoLibro = {
         ...libro,

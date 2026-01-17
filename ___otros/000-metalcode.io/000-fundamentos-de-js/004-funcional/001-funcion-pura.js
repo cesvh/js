@@ -1,7 +1,9 @@
+// Función no pura, se le manda los mismos valores en los parametros pero el resultado es diferente
 function addRandom(a){
     return a + Math.random();
 }
 
+// Si es función pura, si los valores de los parametros es el mismo, siempre obtenemos la misma salida
 function addPureFunction(a, b) {
     return a + b;
 }
@@ -18,9 +20,11 @@ console.log(addPureFunction(1, r));
 
 const numbers = [1, 2, 3, 4, 5];
 
+// Función no pura
 function addNumber(arr, number){
     arr.push(number);
 }
+
 
 function addNumberPureFunction(arr, number){
     return [...arr, number];

@@ -2,6 +2,7 @@ const beer = { name: "Corona", price: 1.5, type: "lager" };
 const brewery = { name: "Grupo Modelo", country: "México" };
 const brewery2 = { type: "test" };
 
+// Los valores se actualizan de izquierda a derecha, por eso el valor final debe ser Corona
 const beerWithBrewery = { ...brewery, ...beer };
 
 console.log(beer);
