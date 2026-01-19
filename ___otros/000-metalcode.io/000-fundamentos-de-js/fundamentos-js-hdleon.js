@@ -85,7 +85,7 @@ Programación Funcional
 	// 53 (39.26%) - 83 - Composición de funciones (Composition)
 	// 54 (40%) - 82 - Función pipe
 	// 55 (40.74%) - 81 - Recursividad
-	56 (41.48%) - 80 - Ejercicio: Recursividad en un escenario real
+	// 56 (41.48%) - 80 - Ejercicio: Recursividad en un escenario real
 --
 Arrays y Programación Funcional
 	57 (42.22%) - 79 - Método map
