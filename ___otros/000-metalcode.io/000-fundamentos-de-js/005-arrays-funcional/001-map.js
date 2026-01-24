@@ -16,8 +16,7 @@ console.log(nuevoArray);
 console.log();
 
 const arrayCuadrado = miNumero.map((elemento, indice, array) => {
-    console.log(elemento);
-    console.log(indice);
+    console.log(`${indice} -> ${elemento}`);
     console.log(array);
     return elemento * 2;
 });
