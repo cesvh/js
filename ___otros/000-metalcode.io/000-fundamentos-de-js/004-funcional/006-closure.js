@@ -1,6 +1,8 @@
+// Función de orden superior que puede mantener su estado
 function closure(name){
     let count = 0;
 
+    // Recibe o retorna una función
     return function(){
         count++;
         console.log(`${name} ejecutando: ${count} veces`);

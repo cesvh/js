@@ -4,6 +4,7 @@ const fn1 = function(nombre) {
 
 console.log(fn1("César"));
 
+// Función anónima que se guarda como función de primera clase en variables
 const fn2 = (nombre) => `Nombre: ${nombre}`;
 
 console.log(fn1("César"));
